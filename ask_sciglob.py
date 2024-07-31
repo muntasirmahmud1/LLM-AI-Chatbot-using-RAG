@@ -184,7 +184,7 @@ def main() -> None:
         if st.button(button_label, type="primary", help="Start the model to begin chat"):
             with st.spinner("Starting ..."):
                 try:
-                    local_path = "/Users/muntasirmahmud/Library/CloudStorage/OneDrive-UMBC/4. SciGlob/Manuals"
+                    local_path = "/docs"
                     st.session_state["vector_db"] = create_vector_db_from_local_path(local_path)
                     st.session_state["button_clicked"] = True
                     st.success("Started successfully.")
