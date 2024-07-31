@@ -9,7 +9,7 @@ from langchain_community.chat_models import ChatOllama
 from langchain_core.runnables import RunnablePassthrough
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
-local_path = "4. SciGlob/Manuals/"
+local_path = "/docs"
 
 # Function to load all PDF documents from the directory
 def load_documents(path):
