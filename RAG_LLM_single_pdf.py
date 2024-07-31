@@ -10,7 +10,7 @@ from langchain_community.chat_models import ChatOllama
 from langchain_core.runnables import RunnablePassthrough
 from langchain.retrievers.multi_query import MultiQueryRetriever
 
-local_path = "/Manuals/Optical Focusing-based Adaptive Modulation for Optoacoustic Communication.pdf"
+local_path = "/docs/1_SciGlob Instruments and Services.pdf"
 
 # Local PDF file uploads
 if local_path:
